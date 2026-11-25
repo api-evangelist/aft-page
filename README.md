@@ -66,7 +66,7 @@
 
 aft.page is a platform that lets users create live, shareable URLs for AI‑generated projects with a single command. It offers a CLI to deploy folders or zip files, integrates with popular AI tools like Claude, Codex, Cursor, and Replit, and provides free hosting with custom domain support. The service emphasizes zero‑account deployment, instant sharing, and versioned updates, targeting developers and AI‑assisted creators looking for quick, low‑friction web publishing.
 
-**Areas:** AI · Hosting · CLI · Deployment · Low‑friction
+**Areas:** Artificial Intelligence · Hosting · CLI · Deployment · Low‑friction
 
 ## aft.page on APIs.io
 
@@ -81,6 +81,18 @@ Everything profiled for aft.page is published on APIs.io rather than in this rep
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [aft-page-mcp.yml](https://apis.io/servers/aft-page/aft-page-mcp-yml/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [aft.page Api Certification Overlay](https://apis.io/overlays/aft-page/aft-page-api-certification-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -91,14 +103,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aft Page Domain Security](https://apis.io/security/aft-page/aft-page-domain-security/)
-- [Aft Page Vulnerability Disclosure](https://apis.io/security/aft-page/aft-page-vulnerability-disclosure/)
+- [aft.page Domain Security](https://apis.io/security/aft-page/aft-page-domain-security/)
+- [aft.page Vulnerability Disclosure](https://apis.io/security/aft-page/aft-page-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aft Page Plans Pricing](https://apis.io/plans/aft-page/aft-page-plans-pricing/)
+- [aft.page Plans Pricing](https://apis.io/plans/aft-page/aft-page-plans-pricing/)
 
 ## Where to find this API
 
@@ -117,25 +129,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 52.4** — developing · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 46.4** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
+| Discoverability | 83.9 |
 | Contract quality | 35.5 |
-| Contract governance | 79.1 |
-| Operational transparency | 42.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 38.1 |
 | Developer ergonomics | 31.0 |
-| Access clarity | 73.2 |
+| Access clarity | 74.5 |
 
-**Agent readiness 18.5** — agent-aware
+**Agent readiness 17.9** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
 | Agentic Access | — |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
@@ -143,7 +155,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | — |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -153,6 +165,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
 
